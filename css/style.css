@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+header {
+    background-image: url('../images/1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.text-box {
+    width: 700px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.text-box h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.text-box h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    line-height: 1.1;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.text-box p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ddd;
+}
