@@ -160,7 +160,6 @@ header {
   margin-bottom: 50px;
 }
 
-/* BASE STYLE */
 .project-row {
   display: flex;
   gap: 20px;
@@ -180,7 +179,6 @@ header {
   filter: grayscale(100%);
 }
 
-/* ROW 1 - Adjusted sizes */
 .row1 {
   display: flex;
   align-items: stretch;
@@ -188,33 +186,28 @@ header {
 }
 
 .row1 .wide {
-  flex: 0.6; /* reduced width again to align properly */
-  height: 400px; /* same height as row2 squares */
+  flex: 0.6; 
+  height: 400px; 
 }
 
 .row1 .narrow {
   margin-right: 30px;
-  flex: 0.3; /* same width ratio as row2 */
-  height: 400px; /* same height as row2 images */
+  flex: 0.3; 
+  height: 400px; 
   width: 100px;
   margin-right: -1px;
 }
 
-
-
-/* ROW 2 */
 .row2 .square {
   width: 300px;
   height: 400px;
 }
 
-/* ROW 3 */
 .row3 .square {
   width: 300px;
   height: 400px;
 }
 
-/* ROW 4 + 5 GRID */
 .project-grid {
   display: flex;
   gap: 20px;
@@ -236,10 +229,9 @@ header {
 
 .center-column .tall {
   width: 300px;
-  height: 820px; /* spans visually across both rows */
+  height: 820px;
 }
 
-/* VIEW ALL TEXT */
 .view-all {
   text-align: left;
   margin-top: 30px;
