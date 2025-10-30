@@ -240,7 +240,6 @@ header {
   text-transform: uppercase;
 }
 
-/* PARTNERS SECTION (top logos) */
 .partners-section {
   background-color: white;
   padding: 50px 0;
@@ -319,3 +318,184 @@ footer {
   text-decoration: underline;
 }
 
+@media (max-width: 992px) {
+  header {
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .text-box {
+    width: 90%;
+    left: 5%;
+    padding: 20px;
+  }
+
+  .text-box h1 {
+    font-size: 36px;
+  }
+
+  .about-row {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+  }
+
+  .text-box1, 
+  .image-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-box1::before {
+    display: none;
+  }
+
+  .project-row,
+  .project-grid {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .project-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .partners {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-main {
+    padding: 40px 0;
+  }
+
+  .footer-logo {
+    width: 90px;
+    margin-bottom: 15px;
+  }
+
+  .footer-main hr {
+    width: 70%;
+    margin: 15px auto;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer-columns p {
+    width: 80%;
+  }
+
+  .partners img {
+    width: 80px;
+  }
+
+  .partners {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .text-box {
+    width: 90%;
+    left: 5%;
+    padding: 10px;
+  }
+
+  .text-box h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .text-box p {
+    font-size: 13px;
+  }
+
+  .about-section {
+    padding: 50px 0;
+  }
+
+  .about-row {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+  }
+
+  .text-box1 {
+    padding: 20px;
+  }
+
+  .image-box {
+    height: 250px;
+  }
+
+  .project-row,
+  .project-grid {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .project-box img {
+    width: 100%;
+    height: auto;
+  }
+
+  .partners {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .partners img {
+    width: 70px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .footer-main {
+    padding: 30px 0;
+  }
+
+  .footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .footer-main hr {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer-bottom {
+    padding: 10px 0;
+  }
+
+  .footer-bottom p {
+    font-size: 11px;
+  }
+}
